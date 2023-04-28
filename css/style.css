@@ -140,9 +140,10 @@ ul {
 
 /* line 60, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/theme-default.scss */
 
-li {
+
+/* li {
     list-style: none;
-}
+} */
 
 
 /* line 63, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/theme-default.scss */
@@ -6542,6 +6543,7 @@ h6 {
 .bbk2604-child-pic {
     /* flex: 50%; */
     background-image: url(../img/banner/banner2.png);
+    background-size: cover;
     /* height: 100%; */
 }
 
@@ -6585,6 +6587,7 @@ h6 {
     background-repeat: no-repeat;
     display: flex;
     padding: 1rem;
+    background-color: rgba(248, 247, 216, 0.7);
 }
 
 .bbk2604-child-pic {
@@ -6601,6 +6604,9 @@ h6 {
 
 .bbk2604-child-caption {
     flex: 50%;
+    padding-top: 2%;
+    padding-left: 4%;
+    background-color: rgba(248, 247, 216, 0.7);
 }
 
 .footer .copy-right_bg2 {
@@ -6610,6 +6616,10 @@ h6 {
 .footer .copy-right_text2 {
     padding-top: 20px;
     padding-bottom: 10px;
+}
+
+.practice-points li {
+    line-height: 2.3rem;
 }
 
 
