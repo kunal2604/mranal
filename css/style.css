@@ -1704,8 +1704,8 @@ h3 {
 /* line 15, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_loyers.scss */
 
 .our_loyers .single_loyers .thumb {
-    width: 280px;
-    height: 280px;
+    width: 350px;
+    height: 350px;
     margin: auto;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -2105,7 +2105,8 @@ h3 {
 
 /* line 28, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
 
-.footer .footer_top .footer_widget p.footer_text {
+.footer .footer_top .footer_widget p.footer_text,
+span.footer_text {
     font-size: 14px;
     color: #C7C7C7;
     margin-bottom: 23px;
@@ -2116,7 +2117,7 @@ h3 {
 
 /* line 34, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
 
-.footer .footer_top .footer_widget p.footer_text a.domain {
+.footer .footer_top .footer_widget p.footer_text a.domain span.footer_text {
     color: #B2B2B2;
     font-weight: 400;
 }
@@ -2124,7 +2125,7 @@ h3 {
 
 /* line 37, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
 
-.footer .footer_top .footer_widget p.footer_text a.domain:hover {
+.footer .footer_top .footer_widget p.footer_text a.domain:hover span.footer_text {
     color: #F2C64D;
     border-bottom: 1px solid #F2C64D;
 }
