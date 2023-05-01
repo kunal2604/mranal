@@ -891,7 +891,7 @@ h3 {
     top: 0;
     background: transparent;
     z-index: 999;
-    background: #000;
+    background: #1E252B;
 }
 
 
@@ -1328,7 +1328,7 @@ h3 {
     color: #ffffff;
     font-weight: 400;
     font-family: "Playfair Display", serif;
-    font-size: 22px;
+    font-size: 1.3rem;
     line-height: 50px;
     position: relative;
     z-index: 8;
@@ -1356,7 +1356,7 @@ h3 {
         color: #ffffff;
         font-weight: 400;
         font-family: "Playfair Display", serif;
-        font-size: 20px;
+        font-size: 1rem;
         line-height: 40px;
         position: relative;
         z-index: 8;
@@ -1671,6 +1671,24 @@ h3 {
     }
 }
 
+.our_map {
+    padding-top: 5rem;
+    padding-bottom: 0rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background: #FFFDF8;
+}
+
+@media (max-width: 767px) {
+    /* line 1, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_loyers.scss */
+    .our_map {
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+    }
+}
+
 
 /* line 13, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_loyers.scss */
 
@@ -1678,10 +1696,23 @@ h3 {
     padding-bottom: 30px;
 }
 
+.our_map .single_loyers {
+    padding-bottom: 0;
+}
+
 
 /* line 15, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_loyers.scss */
 
 .our_loyers .single_loyers .thumb {
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.our_map .single_loyers .thumb {
     width: 280px;
     height: 280px;
     margin: auto;
@@ -1697,10 +1728,22 @@ h3 {
     width: 100%;
 }
 
+.our_map .single_loyers .thumb img {
+    width: 100%;
+}
+
 
 /* line 24, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_loyers.scss */
 
 .our_loyers .single_loyers h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F1F1F;
+    margin-top: 26px;
+    margin-bottom: 6px;
+}
+
+.our_map .single_loyers h3 {
     font-size: 24px;
     font-weight: 700;
     color: #1F1F1F;
@@ -1718,10 +1761,21 @@ h3 {
     margin-bottom: 18px;
 }
 
+.our_map .single_loyers span {
+    font-size: 16px;
+    color: #727272;
+    display: block;
+    margin-bottom: 18px;
+}
+
 
 /* line 39, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_loyers.scss */
 
 .our_loyers .single_loyers .social_links ul li {
+    display: inline-block;
+}
+
+.our_map .single_loyers .social_links ul li {
     display: inline-block;
 }
 
@@ -1742,10 +1796,29 @@ h3 {
     line-height: 35px;
 }
 
+.our_map .single_loyers .social_links ul li a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    color: #F2C64D;
+    background: #FEF7E7;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 5.5px;
+    text-align: center;
+    line-height: 35px;
+}
+
 
 /* line 51, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_loyers.scss */
 
 .our_loyers .single_loyers .social_links ul li a:hover {
+    background: #F2C64D;
+    color: #fff;
+}
+
+.our_map .single_loyers .social_links ul li a:hover {
     background: #F2C64D;
     color: #fff;
 }
@@ -1984,8 +2057,8 @@ h3 {
 /* line 3, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_footer.scss */
 
 .footer .footer_top {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 @media (max-width: 767px) {
@@ -2086,6 +2159,7 @@ h3 {
     font-size: 14px;
     color: #C7C7C7;
     line-height: 42px;
+    font-family: serif;
 }
 
 
@@ -6531,29 +6605,6 @@ h6 {
 
 /* playground begins */
 
-.bbk2604 {
-    /* height: 300px; */
-    /* border-radius: 1px;
-    padding: 20px; */
-    /* background-repeat: no-repeat; */
-    /* display: flex; */
-    /* padding: 1rem; */
-}
-
-.bbk2604-child-pic {
-    /* flex: 50%; */
-    background-image: url(../img/banner/banner2.png);
-    background-size: cover;
-    /* height: 100%; */
-}
-
-.bbk2604-child-pic-color {
-    background-color: rgba(248, 247, 216, 0.7);
-    /* position: center; */
-    /* width: 100%; */
-    height: 100%;
-}
-
 .faded-bg {
     background-color: rgba(31, 31, 31, 0.9);
 }
@@ -6580,19 +6631,49 @@ h6 {
     border: 2px solid #873e23;
 }
 
+@media (max-width: 576px) {
+    /* line 150, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_blog_part.scss */
+    .bbk2604 {
+        flex-direction: column;
+    }
+}
+
 .bbk2604 {
-    height: 500px;
+    /* height: 600px; */
     border-radius: 1px;
     padding: 20px;
     background-repeat: no-repeat;
     display: flex;
     padding: 1rem;
-    background-color: rgba(248, 247, 216, 0.7);
+    /* background-color: rgba(248, 247, 216, 0.7); */
 }
 
 .bbk2604-child-pic {
     flex: 50%;
     background-image: url(../img/banner/cri.png);
+    background-size: cover;
+}
+
+
+/* .bbk2604-child-pic {
+    flex: 50%;
+    background-image: url(../img/banner/banner2.png);
+    background-size: cover;
+    height: 100%;
+} */
+
+@media (max-width: 576px) {
+    /* line 150, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_blog_part.scss */
+    .bbk2604-child-pic {
+        flex: 100%;
+    }
+}
+
+.bbk2604-child-caption {
+    flex: 50%;
+    padding-top: 2%;
+    padding-left: 4%;
+    background-color: rgba(248, 247, 216, 0.7);
 }
 
 .bbk2604-child-pic-color {
@@ -6602,11 +6683,14 @@ h6 {
     height: 100%;
 }
 
-.bbk2604-child-caption {
-    flex: 50%;
-    padding-top: 2%;
-    padding-left: 4%;
-    background-color: rgba(248, 247, 216, 0.7);
+@media (max-width: 576px) {
+    /* line 150, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_blog_part.scss */
+    .bbk2604-child-caption {
+        flex: 100%
+    }
+    .bbk2604-child-pic-color {
+        height: 20rem;
+    }
 }
 
 .footer .copy-right_bg2 {
@@ -6620,6 +6704,17 @@ h6 {
 
 .practice-points li {
     line-height: 2.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .practice-points li {
+        line-height: 1.5rem;
+        font-size: 0.7rem;
+    }
+}
+
+.footer-bullets a {
+    font-family: serif;
 }
 
 

@@ -676,6 +676,8 @@ pre code {
 .col-lg-11,
 .col-lg-12,
 .col-lg-2,
+.col-lg-2-2,
+.col-lg-2-3,
 .col-lg-3,
 .col-lg-4,
 .col-lg-5,
@@ -719,11 +721,14 @@ pre code {
 .col-xl-12,
 .col-xl-2,
 .col-xl-3,
+.col-xl-3-3,
 .col-xl-4,
+.col-xl-4-2,
 .col-xl-4-dp,
 .col-xl-5,
 .col-xl-6,
 .col-xl-7,
+.col-xl-7-2,
 .col-xl-8,
 .col-xl-9,
 .col-xl-auto {
@@ -1399,6 +1404,19 @@ pre code {
         flex: 0 0 46.666667%;
         max-width: 46.666667%
     }
+    .col-lg-2-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 32.666667%;
+        max-width: 32.666667%
+    }
+    .col-lg-2-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 25.666667%;
+        max-width: 25.666667%;
+        margin-left: 5%;
+    }
     .col-lg-3 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 25%;
@@ -1606,11 +1624,29 @@ pre code {
         flex: 0 0 25%;
         max-width: 25%
     }
+    .col-xl-3-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 38%;
+        max-width: 38%
+    }
     .col-xl-4 {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%
+    }
+    .col-xl-4-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 38.333333%;
+        max-width: 38.333333%
+    }
+    .col-xl-4-3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 18.333333%;
+        max-width: 18.333333%
     }
     .col-xl-4-dp {
         -webkit-box-flex: 0;
@@ -1635,6 +1671,12 @@ pre code {
         -ms-flex: 0 0 58.333333%;
         flex: 0 0 50.333333%;
         max-width: 50.333333%
+    }
+    .col-xl-7-2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 70.333333%;
+        max-width: 70.333333%
     }
     .col-xl-8 {
         -webkit-box-flex: 0;
