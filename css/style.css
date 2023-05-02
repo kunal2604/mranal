@@ -891,7 +891,7 @@ h3 {
     top: 0;
     background: transparent;
     z-index: 999;
-    background: #1E252B;
+    background: black;
 }
 
 
@@ -6632,6 +6632,14 @@ h6 {
     border: 2px solid #873e23;
 }
 
+.bbk2604 {
+    /* height: 600px; */
+    border-radius: 1px;
+    padding: 20px;
+    display: flex;
+    padding: 1rem;
+}
+
 @media (max-width: 576px) {
     /* line 150, C:/Users/SPN Graphics/Desktop/CL September/211 Lawyer/HTML/scss/_blog_part.scss */
     .bbk2604 {
@@ -6639,19 +6647,52 @@ h6 {
     }
 }
 
-.bbk2604 {
-    /* height: 600px; */
-    border-radius: 1px;
-    padding: 20px;
-    background-image: url(../img/banner/practice-bg.jpg);
-    background-repeat: no-repeat;
-    display: flex;
-    padding: 1rem;
-}
-
 .bbk2604-child-pic {
     flex: 50%;
+}
+
+.bbk2604-child-pic-1 {
     background-image: url(../img/banner/cri.png);
+    background-size: cover;
+}
+
+.bbk2604-child-pic-2 {
+    background-image: url(../img/banner/intellectual.jpg);
+    background-size: cover;
+}
+
+.bbk2604-child-pic-3 {
+    background-image: url(../img/banner/corporate.jpg);
+    background-size: cover;
+}
+
+.bbk2604-child-pic-4 {
+    background-image: url(../img/banner/deemed.jpg);
+    background-size: cover;
+}
+
+.bbk2604-child-pic-5 {
+    background-image: url(../img/banner/stamp.jpg);
+    background-size: cover;
+}
+
+.bbk2604-child-pic-6 {
+    background-image: url(../img/banner/housing.jpg);
+    background-size: cover;
+}
+
+.bbk2604-child-pic-7 {
+    background-image: url(../img/banner/private.jpg);
+    background-size: cover;
+}
+
+.bbk2604-child-pic-8 {
+    background-image: url(../img/banner/realestate.jpg);
+    background-size: cover;
+}
+
+.bbk2604-child-pic-9 {
+    background-image: url(../img/banner/dispute.jpg);
     background-size: cover;
 }
 
@@ -6675,7 +6716,11 @@ h6 {
     padding-top: 2%;
     padding-left: 4%;
     /* background-color: rgba(248, 247, 216, 0.7); */
-    background-color: rgba(4, 0, 2, 0.2)
+    background-color: rgba(4, 0, 2, 1)
+}
+
+.bbk2604-child-caption h3 {
+    color: white;
 }
 
 .bbk2604-child-pic-color {
